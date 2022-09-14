@@ -8,6 +8,7 @@
 main {
   display: flex;
   border: purple solid 2px;
+  flex-wrap: wrap;
 }
 
 .header {
