@@ -14,7 +14,7 @@ function submitEmail() {
 }submitEmail();
 
 const textarea = document.querySelector('textarea');
-const info = document.getElementById('carResTxtVoce');
+const info = document.getElementById('counter');
 const limite = 500;
 
 function verificar() {
