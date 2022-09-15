@@ -1,7 +1,7 @@
 #evaluation-form {
   display: flex;
   width: 675px;
-  flex-direction: column;
+  flex-flow: column wrap;
   border: red solid 2px;
 }
 
