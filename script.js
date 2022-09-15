@@ -16,9 +16,10 @@ function submitEmail() {
 function agreement() {
   const checkbox = document.getElementById('agreement');
   const submitBtn = document.getElementById('submit-btn');
-  submitBtn.addEventListener('click', (event) => {
-    if (checkbox.checked === false) {
-      event.preventDefault();
+  submitBtn.disabled = !checkbox.checked;
+  checkbox.addEventListener('change', () => {
+    if (checkbox.checked) {
+      submitBtn.disabled = false;
     }
   });
 }agreement();
