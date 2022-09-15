@@ -22,3 +22,18 @@ function agreement() {
     }
   });
 }agreement();
+
+const textarea = document.querySelector('textarea');
+const info = document.getElementById('counter');
+const limite = 500;
+
+function verificar() {
+  const qtdcaracteres = this.value.length;
+  const restantes = limite - qtdcaracteres;
+  if (restantes < 1) {
+    this.value = this.value.slice(0, limite);
+    info.innerHTML = 0;
+  }
+  info.innerHTML = restantes;
+}
+textarea.addEventListener('keyup', verificar);
