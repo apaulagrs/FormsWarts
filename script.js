@@ -12,3 +12,13 @@ function submitEmail() {
     }
   });
 }submitEmail();
+
+function agreement() {
+  const checkbox = document.getElementById('agreement');
+  const submitBtn = document.getElementById('submit-btn');
+  submitBtn.addEventListener('click', (event) => {
+    if (checkbox.checked === false) {
+      event.preventDefault();
+    }
+  });
+}agreement();
