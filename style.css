@@ -5,7 +5,7 @@
 
 body {
   text-align: center;
-  font-family: font-mezalia;
+  font-family: font-mezalia, sans-serif;
 
 }
 
@@ -13,7 +13,6 @@ main {
   display: flex;
   border: purple solid 2px;
   background-color: whitesmoke;
-  font-family: ;
 }
 
 .formulario .logo-trybewarts {
@@ -22,7 +21,7 @@ main {
   margin: 15px 80px;
 }
 
-.logo-trybewarts {
+.logo-trybewarts img {
   position: relative;
   left: 74px;
   top: 50px;
@@ -72,7 +71,7 @@ main {
   width: 48%;
 }
 
-#label-family, .div-radio{
+#label-family .div-radio {
   padding-bottom: 15px;
 }
 
@@ -176,7 +175,7 @@ footer {
   border: 2px solid green;
 }
 
-.container4 div{
+.container4 div {
   display: flex;
 }
 
