@@ -1,3 +1,33 @@
+@font-face {
+  font-family: font-mezalia;
+  src: url('fonts/mezalia-regular.ttf');
+}
+
+body {
+  text-align: center;
+  font-family: font-mezalia;
+
+}
+
+main {
+  display: flex;
+  border: purple solid 2px;
+  background-color: whitesmoke;
+  font-family: ;
+}
+
+.formulario, .logo-trybewarts {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 80px 15px;
+}
+
+.logo-trybewarts{
+  position: relative;
+  left: 74px;
+  top: 50px;
+}
+
 #evaluation-form {
   display: flex;
   width: 675px;
@@ -5,16 +35,90 @@
   border: red solid 2px;
 }
 
-main {
+.fullname {
+  border: blue 2px solid;
+}
+
+
+#input-name, #input-lastname, #input-email{
+  width: 250px;
+  height: 30px;
+  border-radius: 8px;
+  border: solid 1px white;
+}
+
+#house {
+  width: 219px;
+  height: 37px;
+  border-radius: 8px; 
+  background-color: white;
+  border: solid 1px white;
+}
+
+.email-houses {
+  border: green 2px solid;
+}
+
+.container2 {
   display: flex;
-  border: purple solid 2px;
+  flex-direction: row;
+  border: rgb(255, 208, 0) 2px solid;
   flex-wrap: wrap;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  border: 2px red solid;
+  width: 48%;
+}
+
+#label-family, .div-radio{
+    padding-bottom: 15px;
+}
+
+.div2 {
+  display: flex;
+  border: blue solid 2px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.div3 {
+  display: flex;
+  border: orangered solid 2px;
+  width: 60%;
+  height: 40%;
+  flex-wrap: wrap;
+  
+}
+#tittle-div2{
+    text-align: left;   
+    border: blueviolet solid 2px;
+}
+
+.div-checkbox {
+  padding-bottom: 15px;
+}
+
+.label-family {
+  display: flex;
+  flex-direction: column;
+
 }
 
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
-  justify-content: space-around;
+  justify-content: space-between;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header #trybewarts-header-title {
+  font-size: 40px;
 }
 
 .trybewarts-header-logo {
@@ -26,6 +130,60 @@ main {
   align-items: center;
 }
 
+.trybewarts-login #email {
+  border-radius: 8px;
+  width: 140px;
+  height: 30px;
+  margin-right: 5px;
+  border: solid 1px white;
+}
+
+.trybewarts-login #senha {
+  border-radius: 8px;
+  width: 140px;
+  height: 30px;
+  border: solid 1px white;
+}
+
+.trybewarts-login #entrar {
+  width: 140px;
+  height: 34px;
+  border-radius: 8px;
+  color: white;
+  margin-left: 5px;
+}
+
+#submit-btn, #entrar {
+  background-color: rgb(85, 3, 122);
+  color: white;
+    
+}
+
 #trybewarts-forms-logo {
   height: 500px;
+  border: blue solid 2px;
+}
+
+footer {
+  display: flex;
+  background-color: rgb(85, 84, 84);
+  color: white;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container3 {
+  display: flex;
+  justify-content: flex-start;
+  border: 2px solid green;
+}
+
+.container4 div{
+  display: flex;
+}
+
+.container4 #contador {
+    display: inline;
+    text-align:end;
 }
