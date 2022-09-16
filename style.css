@@ -16,13 +16,13 @@ main {
   font-family: ;
 }
 
-.formulario, .logo-trybewarts {
+.formulario .logo-trybewarts {
   display: flex;
   flex-direction: column;
-  margin: 15px 80px 15px;
+  margin: 15px 80px;
 }
 
-.logo-trybewarts{
+.logo-trybewarts {
   position: relative;
   left: 74px;
   top: 50px;
@@ -40,7 +40,7 @@ main {
 }
 
 
-#input-name, #input-lastname, #input-email{
+#input-name #input-lastname #input-email {
   width: 250px;
   height: 30px;
   border-radius: 8px;
@@ -50,7 +50,7 @@ main {
 #house {
   width: 219px;
   height: 37px;
-  border-radius: 8px; 
+  border-radius: 8px;
   background-color: white;
   border: solid 1px white;
 }
@@ -61,9 +61,8 @@ main {
 
 .container2 {
   display: flex;
-  flex-direction: row;
+  flex-direction: row wrap;
   border: rgb(255, 208, 0) 2px solid;
-  flex-wrap: wrap;
 }
 
 .div1 {
@@ -74,14 +73,13 @@ main {
 }
 
 #label-family, .div-radio{
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .div2 {
   display: flex;
   border: blue solid 2px;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   width: 50%;
 }
 
@@ -91,11 +89,11 @@ main {
   width: 60%;
   height: 40%;
   flex-wrap: wrap;
-  
 }
-#tittle-div2{
-    text-align: left;   
-    border: blueviolet solid 2px;
+
+#tittle-div2 {
+  text-align: left;
+  border: blueviolet solid 2px;
 }
 
 .div-checkbox {
@@ -153,10 +151,9 @@ main {
   margin-left: 5px;
 }
 
-#submit-btn, #entrar {
+#submit-btn #entrar {
   background-color: rgb(85, 3, 122);
   color: white;
-    
 }
 
 #trybewarts-forms-logo {
@@ -184,6 +181,6 @@ footer {
 }
 
 .container4 #contador {
-    display: inline;
-    text-align:end;
+  display: inline;
+  text-align: end;
 }
