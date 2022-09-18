@@ -10,8 +10,6 @@ body {
 
 main {
   display: flex;
-
-  /* border: purple solid 2px; */
   background-color: whitesmoke;
 }
 
@@ -31,8 +29,6 @@ main {
   display: flex;
   width: 675px;
   flex-flow: column wrap;
-
-  /* border: red solid 2px; */
 }
 
 .agreement {
@@ -60,8 +56,6 @@ main {
 .container2 {
   display: flex;
   flex-direction: row;
-
-  /* border: rgb(255, 208, 0) 2px solid; */
   border-bottom: 2px solid grey;
   border-top: 2px solid grey;
   padding-top: 20px;
@@ -71,23 +65,17 @@ main {
 .div1 {
   display: flex;
   flex-direction: column;
-
-  /* border: 2px red solid; */
   width: 50%;
 }
 
 #tittle-div1 , .div-radio {
   padding-bottom: 15px;
   display: flex;
-
-  /* border: 2px solid blue; */
   font-size: 17px;
 }
 
 .div2 {
   display: flex;
-
-  /* border: blue solid 2px; */
   flex-flow: column wrap;
   width: 50%;
   font-size: 17px;
@@ -96,8 +84,6 @@ main {
 
 .div3 {
   display: flex;
-
-  /* border: orangered solid 2px; */
   width: 72%;
   height: 40%;
   flex-wrap: wrap;
@@ -113,8 +99,6 @@ option {
 
 #tittle-div2 {
   text-align: left;
-
-  /* border: blueviolet solid 2px; */
   padding-bottom: 10px;
   line-height: 25px;
 }
@@ -190,8 +174,6 @@ option {
 
 #trybewarts-forms-logo {
   height: 500px;
-
-  /* border: blue solid 2px; */
 }
 
 footer {
@@ -206,8 +188,6 @@ footer {
 .container3 {
   display: flex;
   justify-content: space-between;
-
-  /* border: 2px solid green; */
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 17px;
@@ -222,4 +202,3 @@ footer {
   display: inline;
   text-align: end;
 }
-
