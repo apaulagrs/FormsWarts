@@ -1,3 +1,5 @@
+// Desenvolvido em parceria com @Marianaramosl que pode ser encontrada em https://github.com/Marianaramosl
+
 function submitEmail() {
   const clickEmail = document.getElementById('entrar');
   clickEmail.addEventListener('click', () => {
